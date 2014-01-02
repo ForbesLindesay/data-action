@@ -1,6 +1,6 @@
 {
   "name": "data-action",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bind all sorts of things to html click events",
   "keywords": [],
   "dependencies": {
