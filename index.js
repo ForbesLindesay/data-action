@@ -62,9 +62,18 @@ ActionServer.prototype.run = function (name, element) {
   function next() {
     if (actions.length === 0) return Promise.from(null);
     var action = actions.pop();
-    return Promise.from(action(element, parents)).then(next);
+    var result = action(element, parents);
+    if (result && (typeof result === 'object' || typeof result === 'function') && typeof result.then === 'function') {
+      return Promise.from(result).then(next);
+    } else {
+      return next();
+    }
   }
-  return Promise.from(null).then(next);
+  try {
+    return next();
+  } catch (ex) {
+    return new Promise(function (resolve, reject) { reject(ex); });
+  }
 };
 
 function Parents(element, top) {
