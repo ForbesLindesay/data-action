@@ -1,0 +1,49 @@
+{
+  "name": "data-action",
+  "version": "0.0.0",
+  "description": "Bind all sorts of things to html click events",
+  "keywords": [],
+  "dependencies": {
+    "handle": "~1",
+    "promise": "~3",
+    "matches-selector": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "run-browser": "~1.1.0"
+  },
+  "scripts": {
+    "test": "run-browser test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/data-action.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "iexplore/9.0",
+      "iexplore/10.0",
+      "chrome/30.0",
+      "chrome/31.0",
+      "chrome/canary",
+      "firefox/10.0",
+      "firefox/15.0",
+      "firefox/20.0",
+      "firefox/21.0",
+      "firefox/22.0",
+      "firefox/23.0",
+      "firefox/24.0",
+      "firefox/25.0",
+      "firefox/nightly",
+      "opera/11.0",
+      "opera/17.0",
+      "opera/next",
+      "safari/6.0",
+      "iphone/6.0",
+      "ipad/6.0"
+    ]
+  }
+}
