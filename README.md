@@ -2,8 +2,8 @@
 
 Bind all sorts of things to html click events to build your own UI framework.
 
-[![Dependency Status](https://gemnasium.com/ForbesLindesay/data-action.png)](https://gemnasium.com/ForbesLindesay/data-action)
-[![NPM version](https://badge.fury.io/js/data-action.png)](http://badge.fury.io/js/data-action)
+[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/data-action.svg)](https://gemnasium.com/ForbesLindesay/data-action)
+[![NPM version](https://img.shields.io/npm/v/data-action.svg)](http://badge.fury.io/js/data-action)
 
 [![browser support](https://ci.testling.com/ForbesLindesay/data-action.png)](https://ci.testling.com/ForbesLindesay/data-action)
 
