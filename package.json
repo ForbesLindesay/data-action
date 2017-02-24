@@ -5,12 +5,12 @@
   "keywords": [],
   "dependencies": {
     "handle": "~1",
-    "promise": "~3",
+    "promise": "~7.1.1",
     "matches-selector": "~1.0.0"
   },
   "devDependencies": {
-    "tape": "~2.3.2",
-    "run-browser": "~1.1.0"
+    "tape": "~4.6.3",
+    "run-browser": "~2.0.2"
   },
   "scripts": {
     "test": "run-browser test/index.js"
