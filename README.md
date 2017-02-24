@@ -1,5 +1,7 @@
 # data-action
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/data-action.svg)](https://greenkeeper.io/)
+
 Bind all sorts of things to html click events to build your own UI framework.
 
 [![Dependency Status](https://img.shields.io/david/ForbesLindesay/data-action.svg)](https://david-dm.org/ForbesLindesay/data-action)
